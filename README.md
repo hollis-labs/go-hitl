@@ -1,5 +1,21 @@
 # go-hitl
 
+## Moved to substrate
+
+This standalone repository is deprecated. New development lives in the
+[`github.com/hollis-labs/substrate/mesh`](https://github.com/hollis-labs/substrate/tree/mesh/v0.1.0/mesh)
+module, released as **`mesh/v0.1.0`**.
+
+```sh
+go get github.com/hollis-labs/substrate/mesh@v0.1.0
+```
+
+Follow the [package and API migration guide](https://github.com/hollis-labs/substrate/blob/mesh/v0.1.0/mesh/hitl/MIGRATION.md) when updating imports;
+the consolidation can include API changes. Existing standalone tags and history
+are preserved. The documentation below describes the standalone releases and
+is retained for historical reference. Applications migrate separately; this
+redirect does not deploy or update any consumer.
+
 A kind-agnostic contract for asking a human (or any slow responder) and getting back exactly one immutable outcome, with a JSON Schema bundle, Go wire types, a reference `Service` over a pluggable `Store`, an in-memory store, and a conformance kit.
 
 ## Status
