@@ -1,5 +1,12 @@
 # Changelog
 
+## Repository retirement — 2026-10-09
+
+- Deprecated this standalone repository in favor of `github.com/hollis-labs/substrate/mesh@v0.1.0`
+  ([migration guide](https://github.com/hollis-labs/substrate/blob/mesh/v0.1.0/mesh/hitl/MIGRATION.md)).
+- Preserved existing release tags and history. This documentation change does
+  not create a new standalone release or migrate applications.
+
 All notable changes to go-hitl are documented here. The format
 follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
